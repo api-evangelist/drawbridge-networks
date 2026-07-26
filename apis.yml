@@ -1,8 +1,26 @@
 aid: drawbridge-networks
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/drawbridge-networks.png
 name: Drawbridge Networks
-description: Drawbridge Networks is a company surfaced as a portfolio company of bloomberg-beta and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Drawbridge Networks was a network microsegmentation cybersecurity startup founded in 2014 in New York
+  by John Terrill and Tom Cross. Its product, PathProtect, applied fine-grained, identity- and workload-aware
+  security policies inside corporate networks to learn, detect, and automatically quarantine lateral
+  (east-west) attacker movement before it could spread. The company raised a $1.7M seed round from Antecedent
+  Ventures, Bloomberg Beta, and Bowery Capital, and was acquired by OPAQ Networks in May 2017 (OPAQ was
+  itself later acquired by Fortinet in 2020). Drawbridge Networks was surfaced as a Bloomberg Beta portfolio
+  company and added to the API Evangelist network as a stub. Enrichment finds the company defunct: no domains
+  resolve, and there is no live developer portal, documentation, or public API surface to catalog.
 url: https://raw.githubusercontent.com/api-evangelist/drawbridge-networks/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +28,36 @@ x-backed-by:
 - bloomberg-beta
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-reason: Acquired by OPAQ Networks in May 2017; no live domain or developer surface as of enrichment.
+x-acquired-by: opaq-networks
+x-acquired-date: '2017-05'
+x-founded: '2014'
+x-headquarters: New York, NY, USA
+x-founders:
+- John Terrill
+- Tom Cross
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Cybersecurity
+- Network Security
+- Microsegmentation
+- Defunct
+- Acquired
 apis: []
+common:
+- type: Crunchbase
+  url: https://www.crunchbase.com/organization/drawbridge-networks
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
