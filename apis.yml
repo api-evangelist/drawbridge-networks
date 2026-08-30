@@ -60,6 +60,11 @@ tags:
 - Acquired
 apis: []
 common:
+- type: ParentCompany
+  url: https://apis.io/providers/fortinet/
+  name: Fortinet
+  x-relationship: acquired
+  x-evidence: "7M seed round from Antecedent Ventures, Bloomberg Beta, and Bowery Capital, and was acquired by OPAQ Networks in May 2017 (OPAQ was itself later acquired by Fortinet in 2020)."
 - type: Crunchbase
   url: https://www.crunchbase.com/organization/drawbridge-networks
 maintainers:
